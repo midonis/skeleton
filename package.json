@@ -2,6 +2,9 @@
   "name": "@midonis/skeleton",
   "version": "1.0.0",
   "description": "A skeleton for TypeScript packages.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ignore-path .gitignore . --ext .ts",
